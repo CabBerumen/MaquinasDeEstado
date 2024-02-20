@@ -1,0 +1,11 @@
+Maquinas de estado
+
+La máquina de estado es una arquitectura fundamental en LabVIEW que permite a los desarrolladores crear aplicaciones de manera rápida y eficiente. Se utiliza para implementar algoritmos complejos de toma de decisiones, representados por diagramas de estado o de flujo. Esta arquitectura es ideal para aplicaciones que requieren estados identificables y lógica para tomar decisiones sobre cuándo pasar a un estado particular.
+
+Una máquina de estado se puede implementar utilizando funciones nativas de LabVIEW, lo que significa que no se requieren toolkits o módulos adicionales para la arquitectura. Se utiliza un ciclo While para ejecutar continuamente los distintos estados, una estructura de caso para cada estado que contiene el código que se ejecutará para ese estado, un registro de desplazamiento para la información de transición de estado, y un código de transición que determina el siguiente estado en la secuencia.
+
+Los estados en una máquina de estado pueden definirse como los estados dentro del programa mientras se realiza la tarea general del programa. Por ejemplo, los estados podrían ser inicialización, esperar, ejecutar un cálculo, verificar el estado, entre otros. La lógica de toma de decisiones ayuda a determinar cuándo pasar a un nuevo estado y a qué estado pasar. Los eventos, ya sean programáticos o definidos por el usuario, como presionar un botón, se utilizan para activar el movimiento de un estado al siguiente.
+
+Las máquinas de estado son útiles en aplicaciones que pueden describirse como una combinación de estados y lógica para la toma de decisiones, como inicialización, ejecución de cálculos, verificación de estados, entre otros. Además, las máquinas de estado son utilizadas en aplicaciones donde existen estados identificables, y cada estado puede llevar a uno o varios estados o finalizar el flujo del proceso. También son útiles en situaciones donde las acciones realizadas dependen de las entradas anteriores y actuales, así como de los estados.
+
+En resumen, la máquina de estado es una arquitectura de programación versátil y poderosa que permite a los desarrolladores implementar algoritmos de toma de decisiones en sus aplicaciones de LabVIEW de manera eficiente y estructurada.git a
